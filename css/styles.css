@@ -373,3 +373,11 @@ summary { cursor: pointer; font-weight: 700; min-height: 44px; display: flex; al
 .card-title { font-size: 1.25rem; margin: 0; }
 .card-figure { margin: 0; }
 .card-figure img { display: block; width: 100%; border-radius: calc(var(--radius) - 2px); border: 1px solid var(--border); }
+
+/* Publication lists */
+.pub-list { list-style: none; padding: 0; margin: 1rem 0; }
+.pub-list > li { padding: 1rem 0; border-top: 1px solid var(--border); }
+.pub-list > li:first-child { border-top: 0; }
+.pub-list p { margin: .25rem 0; }
+.pub-title { font-weight: 700; font-size: 1.1rem; }
+.file-type { font-weight: 400; }
